@@ -1,0 +1,29 @@
+@import "./mixin.less";
+@import "./variables.less";
+page {
+
+}
+.page__list {
+    gap:20px;
+    .flex;
+    .flex-wrap(wrap);
+    padding: 0 15px;
+    li {
+        width: 79px;
+        p {
+            font-size:10px;
+            text-align:center;
+            font-weight: @font-weight__semibold;
+        }
+    }
+    li:first-child {
+        p {
+            color:@primary-color;
+        }
+    }
+    li:last-child {
+        p {
+            color:@primary-color;
+        }
+    }
+}

@@ -1,0 +1,176 @@
+.wrapper-mobile {
+  max-width: 414px;
+  margin: auto;
+}
+.flex {
+  display: flex;
+}
+.button--outline {
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 700;
+  border: 1px solid #EE2E24;
+  padding: 11px 15px;
+  background: #EE2E24;
+  color: #fff;
+}
+.button--outline:hover {
+  background: #EE2E24;
+  color: #fff;
+}
+.button--signin {
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 700;
+  border: 1px solid #EE2E24;
+  padding: 11px 15px;
+  background: #fff;
+  color: #EE2E24;
+}
+.button--signin:hover {
+  background: #EE2E24;
+  color: #fff;
+}
+.input-pc {
+  width: 337px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  border: 0;
+  border: 1px solid #E5E5E5;
+  border-radius: 20px;
+  background: #fff;
+}
+.input-tablet-mobile {
+  width: 200px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  border: 0;
+  border: 1px solid #E5E5E5;
+  border-radius: 20px;
+  background: #fff;
+}
+.circle-mobile {
+  position: absolute;
+  top: 9px;
+  right: -7px;
+  background-color: #fff;
+  border-radius: 26px;
+  width: 14px;
+  height: 14px;
+}
+.line-mobile {
+  height: 1px;
+  width: 90%;
+  background-color: #F99B2A;
+  margin: auto ;
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v20/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQXME.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mulish/v7/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSd-OvHg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mulish/v7/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNRwaA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mulish/v7/1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRWwaA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rowdies';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rowdies/v5/ptRMTieMYPNBAK219hth5O4.ttf) format('truetype');
+}
+.wrapper {
+  max-width: 414px;
+  margin: auto;
+}
+.header__top {
+  width: 100%;
+  height: 41px;
+  background-color: #EE2E24;
+}
+.header {
+  background-color: #EE2E24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+  gap: 12px;
+}
+.header__user__shortcut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.header__from {
+  position: relative;
+}
+.header__from input {
+  width: 200px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  border: 0;
+  border: 1px solid #E5E5E5;
+  border-radius: 20px;
+  background: #fff;
+}
+.header__from a {
+  position: absolute;
+  right: 18px;
+  top: 2px;
+}
+.header__cart {
+  position: relative;
+}
+.header__cart .circle {
+  position: absolute;
+  top: 9px;
+  right: -7px;
+  background-color: #fff;
+  border-radius: 26px;
+  width: 14px;
+  height: 14px;
+}
+.header__bottom {
+  background-color: #F99B2A;
+  height: 9px;
+  margin-top: 3px;
+}
+.banner {
+  position: relative;
+}
+.banner span {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  padding: 4px 12px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  font-weight: 600;
+}
